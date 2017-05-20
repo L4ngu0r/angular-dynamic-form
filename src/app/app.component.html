@@ -1,3 +1,4 @@
-<h1>
-  {{title}}
-</h1>
+<h1>{{title}}</h1>
+<div *ngFor="let section of sectionsListe">
+  <app-group-form [item]="section.item"></app-group-form>
+</div>

@@ -9,7 +9,6 @@ import { FormControlService } from '../../services/form/form-control.service';
 })
 export class GroupComponent implements OnInit {
   @Input() item: any;
-  @Input() index: number;
   form: FormGroup;
   payLoad = '';
 
